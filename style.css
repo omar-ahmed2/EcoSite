@@ -1,0 +1,303 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(103, 98, 98);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar ul li a:hover {
+    color: #ff6347;
+}
+
+/* Middle Section */
+.middle {
+    background-color: #f8f8f8;
+    height: 850px;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: url('Image.png') no-repeat center center/cover;
+    padding: 100px 20px;
+    width: 100%;
+}
+
+.hero-content {
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.hero-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-section button:hover {
+    transform: scale(1.2);
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px;
+    background-color: #f8f8f8;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.about img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.about-text {
+    margin-left: 300px;
+    margin-bottom: 90px;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Profiles Section */
+.profiles {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.name {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.prof-1, .prof-2, .prof-3 {
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(125, 10, 10, 0.2);
+}
+
+.txt {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+    width: 420px;
+}
+
+.prof-imag {
+    margin-top: 20px;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cont-us {
+    font-size: 40px;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.h4-name, .h4-mail, .h4-mess {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.h4-name {
+    margin-right: 520px;
+}
+
+.h4-mail {
+    margin-right: 520px;
+}
+
+.h4-mess {
+    margin-right: 480px;
+}
+
+.input-txt {
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(125, 10, 10, 0.2);
+    font-size: 18px;
+    color: #333;
+    padding: 0 10px;
+}
+
+.input-txt-2 {
+    height: 150px;
+}
+
+input::placeholder {
+    transform: translateX(20px);
+    font-size: 16px;
+    color: #777;
+}
+
+button {
+    margin-top: 20px;
+    width: 40%;
+    height: 40px;
+    background: rgb(226, 94, 46);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, orangered, rgb(65, 3, 3));
+}
+
+/* Footer */
+.page-foot {
+    margin-top: 50px;
+    background: black;
+    color: white;
+    height: 200px;
+}
+
+.links {
+    padding: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.lnks-p-legal {
+    margin-right: 300px;
+}
+
+.links ul li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    right: 355px;
+}
+
+.links ul li a:hover {
+    color: #ff6347;
+}
+
+.media {
+    position: relative;
+    right: 150px;
+}
+
+.icon-footer {
+    width: 30px;
+    position: relative;
+    top: 20px;
+    margin-right: 5px;
+}
+
+.face-book {
+    width: 30px;
+}
+
+.legal-p {
+    margin-top: 20px;
+    font-size: 17px;
+}
